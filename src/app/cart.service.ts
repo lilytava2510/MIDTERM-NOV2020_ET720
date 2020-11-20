@@ -28,6 +28,9 @@ export class CartService {
  getIllustrationPortfolio() {
     return this.http.get('/assets/illustration.json');
   }
+  getDigitalArtPortfolio() {
+    return this.http.get('/assets/digital.json');
+  }
   constructor(
     private http: HttpClient
   ) { }

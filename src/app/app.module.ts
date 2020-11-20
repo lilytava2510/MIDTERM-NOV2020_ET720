@@ -19,6 +19,7 @@ import { ResumeProfileComponent } from './resume-profile/resume-profile.componen
 import { ResumeWorkExperienceComponent } from './resume-work-experience/resume-work-experience.component';
 import { IllustrationComponent } from './illustration/illustration.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
+import { DigitalArtComponent } from './digital-art/digital-art.component';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
          { path: 'resume', component: MyResumeComponent },
          { path: 'graphic', component: GraphicDesignComponent },
       { path: 'illustration', component: IllustrationComponent },
+       { path: 'digital', component: DigitalArtComponent },
     ])
   ],
   declarations: [
@@ -49,7 +51,8 @@ import { GraphicDesignComponent } from './graphic-design/graphic-design.componen
     ResumeProfileComponent,
     ResumeWorkExperienceComponent,
     IllustrationComponent,
-    GraphicDesignComponent
+    GraphicDesignComponent,
+    DigitalArtComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
